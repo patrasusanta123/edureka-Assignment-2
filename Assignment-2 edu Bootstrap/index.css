@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: white;
+}
+
+.back-img {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.489), rgba(0, 0, 0, 0.051)), url(background123.png);
+    height: 1366px;
+    height: 480px;
+}
+.login, .newaccount{
+    text-decoration: none;
+    color: white;    
+}
+ .login:hover, .newaccount:hover{ 
+    color: rgb(229, 10, 10); 
+}
+.newaccount{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 15px;
+
+}
+.logo{
+    display: inline;
+    color: red;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 31px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    
+}.resturant-title{
+    
+    color: white;
+    font-size: 39px;  
+    font-family: 'Poppins', sans-serif ;  
+      
+}
+.dropdown{
+    position: absolute;
+    left: 426px;
+}
+.searchbar{
+    position: absolute;
+    left: 652px;
+}
+.restaurantsinput{
+    padding: 11px 84px;
+}
+.locationDropdown{
+    padding: 15px 10px;
+}
+
+.food-names{
+    margin-left: 113px;
+    margin-top: 30px;
+}
+
+.quick{
+    font: normal normal bold 35px/46px Poppins;
+    color: #192F60;
+}
+.meal{
+    font: normal normal normal 18px/27px Poppins;
+    color: #8C96AB;
+    
+}
+.result1{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 110px;
+    position: absolute;
+    top: 581px;
+    left: 113px;
+    margin-top: 35px;
+}
+.result2{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 110px;
+    position: absolute;
+    top: 713px;
+    left: 113px;
+    margin-top: 35px;
+}
+.result3{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 110px;
+    position: absolute;
+    top: 581px;
+    left: 417px;
+    margin-top: 35px;
+}
+.result4{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 110px;
+    position: absolute;
+    top: 581px;
+    left: 722px;
+    margin-top: 35px;
+}
+.result5{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 110px;
+    position: absolute;
+    top: 713px;
+    left: 416px;
+    margin-top: 35px;
+}
+.result6{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    width: 280px;
+    height: 110px;
+    position: absolute;
+    top: 713px;
+    left: 722px;
+    margin-top: 35px;
+}
+.img1{
+    width: 124px;
+    height: 111px;
+    left: 0px;
+    position: absolute;
+}
+.img2{
+    width: 124px;
+    height: 111px;
+    left: 0px;
+    position: absolute;   
+}
+.img3{
+    width: 124px;
+    height: 111px;
+    left: 0px;
+    position: absolute;
+}
+.img4{
+    width: 124px;
+    height: 111px;
+    left: 0px;
+    position: absolute;
+}
+.img5{
+    width: 124px;
+    height: 111px;
+    left: 0px;
+    position: absolute;
+}
+.img6{
+    width: 124px;
+    height: 111px;
+    left: 0px;
+    position: absolute;
+}
+.breakfast{
+    left: 142px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 17px/24px Poppins;
+    color: #192F60;
+}
+.dinner{
+    left: 142px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 17px/24px Poppins;
+    color: #192F60;
+}
+.lunch{
+    left: 142px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 17px/24px Poppins;
+    color: #192F60;
+}
+.drinks{
+    left: 142px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 17px/24px Poppins;
+    color: #192F60;
+}
+.snacks{
+    left: 142px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 17px/24px Poppins;
+    color: #192F60;
+}
+.nightlife{
+    left: 142px;
+    position: absolute;
+    top: 3px;
+    font: normal normal bold 17px/24px Poppins;
+    color: #192F60;
+}
+.list1{
+    position: absolute;
+    left: 142px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: small;
+
+}
+.list2{
+    position: absolute;
+    left: 142px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: small;
+
+}
+.list3{
+    position: absolute;
+    left: 142px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: small;
+
+}
+.list4{
+    position: absolute;
+    left: 142px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: small;
+
+}
+.list5{
+    position: absolute;
+    left: 142px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: small;
+
+}
+.list6{
+    position: absolute;
+    left: 142px;
+    top: 34px;
+    color: #8C96AB;
+    font-size: small;
+}
